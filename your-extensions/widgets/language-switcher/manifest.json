@@ -1,0 +1,18 @@
+{
+  "name": "language-switcher",
+  "type": "widget",
+  "version": "1.17.0",
+  "exbVersion": "1.17.0",
+  "author": "Vasilis Papakonstantinou",
+  "description": "A custom widget for locale switching",
+  "copyright": "",
+  "license": "",
+  "properties": {},
+  "translatedLocales": ["en", "el"],
+  "defaultSize": {
+    "width": 56,
+    "height": 40
+  },
+  "canAutoExpand": true,
+  "dependency": ["jimu-arcgis"]
+}

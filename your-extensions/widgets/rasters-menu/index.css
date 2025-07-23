@@ -1,0 +1,33 @@
+.dropdown-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 80px;
+    column-gap: 40px;
+}
+
+.description-wrapper {
+    background-color: #eee;
+    color: #2a2c2a;
+    font-weight: 600;
+    padding: 10px 40px;
+}
+
+.jimu-btn.jimu-dropdown-button {
+    background-color: transparent; /* Change background color */
+    color: white;
+    border: none !important;
+}
+
+.app-root-emotion-cache-ltr-1q1ij5-Dropdown-root {
+    display: inline-flex;
+    position: relative;
+    width: 25%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.app-root-emotion-cache-ltr-126np1i-DropdownButton-content .jimu-icon {
+    margin-right: 8px;
+    margin-left: 16px;
+}
