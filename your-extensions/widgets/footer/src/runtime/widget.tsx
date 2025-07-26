@@ -1,5 +1,8 @@
 import { React, jsx } from "jimu-core";
 import { Link, Image } from "jimu-ui";
+import ofypekaLogo from '../../../../shared/assets/ofypeka-logo-footer.png'
+import adaptiveLogo from '../../../../shared/assets/adaptive-footer-logo.png'
+import lifeLogo from '../../../../shared/assets/eu-life-logo.png'
 
 const Widget = () => {
   return (
@@ -65,7 +68,7 @@ const Widget = () => {
           >
             <Link href="https://necca.gov.gr/" target="_blank">
               <Image
-                src="https://adaptivegreecehub.gr/wp-content/themes/CustomTheme/assets/images/ofypeka-logo-footer.png"
+                src={ofypekaLogo}
                 style={{ maxHeight: "60px", maxWidth: "100%", height: "auto" }}
               />
             </Link>
@@ -82,7 +85,7 @@ const Widget = () => {
           >
             <Link href="https://www.adaptivegreece.gr/el-gr/" target="_blank">
               <Image
-                src="https://adaptivegreecehub.gr/wp-content/themes/CustomTheme/assets/images/footer/adaptive-footer-logo.png"
+                src={adaptiveLogo}
                 style={{ maxWidth: "280px", width: "100%" }}
               />
             </Link>
@@ -91,7 +94,7 @@ const Widget = () => {
               target="_blank"
             >
               <Image
-                src="https://adaptivegreecehub.gr/wp-content/themes/CustomTheme/assets/images/eu-life-logo.png"
+                src={lifeLogo}
                 style={{ maxWidth: "380px", width: "100%" }}
               />
             </Link>

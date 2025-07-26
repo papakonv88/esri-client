@@ -97,14 +97,21 @@ const Widget = (props: AllWidgetProps<any>) => {
   const replaceRasterLayer = () => {
     if (!jimuMapView?.view || !layer) return;
 
+    const layerUrl = `https://geohub.necca.gov.gr/server/rest/services/AdaptiveGreece/${layer}/MapServer`;
+
     const newLayer = new MapImageLayer({
       id: BASE_LAYER_ID,
-      url: `https://geohub.necca.gov.gr/server/rest/services/AdaptiveGreece/${layer}/MapServer`,
+      url: layerUrl,
       opacity: 0.5,
       visible: true,
     });
 
     const existingLayer = jimuMapView.view.map.findLayerById(BASE_LAYER_ID);
+
+    if (existingLayer && existingLayer.url === layerUrl) {
+      return;
+    }
+
     if (existingLayer) {
       jimuMapView.view.map.remove(existingLayer);
     }

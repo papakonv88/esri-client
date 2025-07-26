@@ -1,0 +1,23 @@
+{
+  "name": "opacity-slider",
+  "type": "widget",
+  "version": "1.17.0",
+  "exbVersion": "1.17.0",
+  "author": "Vasilis Papakonstantinou",
+  "description": "A custom widget for opacity-slider",
+  "copyright": "",
+  "license": "",
+  "properties": {
+    "position": {
+      "left": 0,
+      "top": 0,
+      "bottom": 0,
+      "right": 0
+    }
+  },
+  "translatedLocales": ["en", "el"],
+  "supportMap": true,
+  "defaultSize": {},
+  "canAutoExpand": true,
+  "dependency": ["jimu-arcgis"]
+}

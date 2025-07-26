@@ -1,0 +1,27 @@
+#legend-custom-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    align-content: flex-end;
+}
+
+#legend-custom-wrapper .esri-legend__symbol {
+    opacity: 1 !important;
+}
+
+#legend-custom-wrapper .esri-legend__layer-caption {
+    display: none !important;
+}
+
+#legend-custom-wrapper .esri-legend__layer-cell {
+    padding: 0 0 0 4px !important;
+}
+
+#legend-custom-wrapper .esri-legend__layer {
+    margin-left: 0 !important;
+}
+
+#legend-custom-wrapper .esri-legend__layer-table {
+    margin-bottom: 0 !important;
+}
