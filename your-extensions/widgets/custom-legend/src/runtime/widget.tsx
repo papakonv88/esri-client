@@ -11,7 +11,9 @@ const Widget = (props: AllWidgetProps<any>) => {
   const [mapView, setMapView] = useState<__esri.MapView | null>(null);
   const legendRef = useRef<__esri.Legend | null>(null);
   const legendDivRef = useRef<HTMLDivElement>(null);
-  const { activeLayer } = useActiveLayer();
+  const { activeLayer, layerDetails } = useActiveLayer();
+
+  console.log(layerDetails, "layerdetails");
 
   const baseLayer = useMemo(() => {
     if (!mapView?.map) return null;
@@ -51,8 +53,17 @@ const Widget = (props: AllWidgetProps<any>) => {
       container
         .querySelectorAll(".esri-legend__layer-cell")
         .forEach((el: HTMLElement) => {
+          console.log(typeof el.textContent, "text content");
           if (el.textContent?.includes("ADVANCEDLABELS - ")) {
-            el.textContent = el.textContent.replace("ADVANCEDLABELS - ", "");
+            const parts = el.textContent.split(" - ");
+            const value = parts[1] || null;
+            if (layerDetails?.precision) {
+              el.textContent = parseFloat(value).toFixed(
+                layerDetails?.precision,
+              );
+            } else {
+              el.textContent = parseFloat(value).toFixed(3);
+            }
           }
         });
     };
@@ -66,7 +77,7 @@ const Widget = (props: AllWidgetProps<any>) => {
     });
 
     return () => observer.disconnect();
-  }, [legendDivRef.current]);
+  }, [layerDetails]);
 
   return (
     <>
