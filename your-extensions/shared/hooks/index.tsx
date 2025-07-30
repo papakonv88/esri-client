@@ -41,7 +41,6 @@ export const useLocale = () => {
   useEffect(() => {
     const unsubscribe = getAppStore().subscribe(() => {
       const currentLocale = getAppStore().getState().appContext?.locale;
-      console.log(currentLocale, "cur loc");
       if (currentLocale && currentLocale !== locale) {
         setLocale(currentLocale);
       }
