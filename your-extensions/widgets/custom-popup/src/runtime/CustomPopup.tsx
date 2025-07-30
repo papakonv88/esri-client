@@ -52,7 +52,6 @@ const CustomPopup = ({
 
   const activeIndex = useMemo(() => {
     if (!payload?.results) return "-";
-    console.log(activeLayer, "activelayer");
     const res = payload.results.find((item) => item.layer === activeLayer);
     const resFinal = res?.result ? res.result : "-";
     return formatResult(resFinal, details);

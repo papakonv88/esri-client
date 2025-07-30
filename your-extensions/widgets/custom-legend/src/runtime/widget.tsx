@@ -13,8 +13,6 @@ const Widget = (props: AllWidgetProps<any>) => {
   const legendDivRef = useRef<HTMLDivElement>(null);
   const { activeLayer, layerDetails } = useActiveLayer();
 
-  console.log(layerDetails, "layerdetails");
-
   const baseLayer = useMemo(() => {
     if (!mapView?.map) return null;
     return mapView.map.findLayerById(BASE_LAYER_ID) || null;
@@ -53,7 +51,6 @@ const Widget = (props: AllWidgetProps<any>) => {
       container
         .querySelectorAll(".esri-legend__layer-cell")
         .forEach((el: HTMLElement) => {
-          console.log(typeof el.textContent, "text content");
           if (el.textContent?.includes("ADVANCEDLABELS - ")) {
             const parts = el.textContent.split(" - ");
             const value = parts[1] || null;
