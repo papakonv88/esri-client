@@ -1,0 +1,22 @@
+{
+  "name": "cities-diagrams",
+  "type": "widget",
+  "version": "1.17.0",
+  "exbVersion": "1.17.0",
+  "author": "Vasilis Papakonstantinou",
+  "description": "A custom widget to show statistical diagrams",
+  "copyright": "",
+  "license": "",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 800,
+    "height": 800
+  },
+  "canAutoExpand": true,
+  "dependency": [
+    "jimu-arcgis"
+  ]
+}

@@ -1,0 +1,10 @@
+.slider-wrapper {
+    width: 180px;
+}
+
+@media (max-width: 576px) {
+    .slider-wrapper {
+        width: 100px;
+    }
+}
+

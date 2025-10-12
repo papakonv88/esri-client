@@ -1,0 +1,49 @@
+@media (max-width: 576px) {
+
+    div[data-layoutid="layout_55"][data-layoutitemid="0"],
+    div[data-layoutid="layout_18"][data-layoutitemid="0"] {
+        overflow: visible;
+        min-width: 16px;
+        min-height: 16px;
+        position: absolute;
+        right: 10px;
+        top: 95px;
+        width: 32px;
+        height: 32px;
+    }
+
+    div[data-layoutid="layout_55"][data-layoutitemid="11"],
+    div[data-layoutid="layout_18"][data-layoutitemid="6"] {
+        overflow: visible;
+        min-width: 16px;
+        min-height: 16px;
+        position: absolute;
+        right: 0px;
+        top: 125px;
+    }
+
+    div[data-layoutid="layout_55"][data-layoutitemid="7"],
+    div[data-layoutid="layout_18"][data-layoutitemid="7"] {
+        overflow: visible;
+        min-width: 16px;
+        min-height: 16px;
+        position: absolute;
+        right: 10px;
+        top: 180px;
+        width: 32px;
+        height: 32px;
+    }
+
+    div[data-layoutid="layout_55"][data-layoutitemid="10"],
+    div[data-layoutid="layout_18"][data-layoutitemid="10"] {
+        overflow: visible;
+        min-width: 16px;
+        min-height: 16px;
+        position: absolute;
+        left: 10px;
+        top: 50px;
+        width: 40px;
+        height: 40px;
+    }
+
+}

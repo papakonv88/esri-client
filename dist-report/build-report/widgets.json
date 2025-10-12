@@ -1,0 +1,1622 @@
+{
+  "entrypoints": {
+    "widgets/about-us/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": "widgets/about-us/dist/runtime/widget",
+          "names": [
+            "widgets/about-us/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./your-extensions/widgets/about-us/index.css",
+            "./node_modules/css-loader/dist/runtime/api.js",
+            "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+            "./node_modules/react-redux/dist/react-redux.mjs",
+            "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+            "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+            "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+            "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+            "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+            "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+            "./node_modules/use-sync-external-store/cjs/use-sync-external-store-with-selector.production.min.js",
+            "./node_modules/use-sync-external-store/with-selector.js",
+            "./your-extensions/shared/hooks/index.tsx",
+            "./your-extensions/widgets/about-us/index.css",
+            "./your-extensions/widgets/about-us/src/runtime/AboutUsTable.tsx",
+            "./your-extensions/widgets/about-us/src/runtime/EnglishContent.tsx",
+            "./your-extensions/widgets/about-us/src/runtime/GreekContent.tsx",
+            "./your-extensions/widgets/about-us/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/about-us/dist/setting/setting": {
+      "chunks": [
+        {
+          "id": "widgets/about-us/dist/setting/setting",
+          "names": [
+            "widgets/about-us/dist/setting/setting"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/about-us/src/setting/setting.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/cities-diagrams/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": "widgets/cities-diagrams/dist/runtime/widget",
+          "names": [
+            "widgets/cities-diagrams/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/Axis.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisBreak.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisBullet.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisFill.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisFillCircular.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisLabel.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisLabelCircular.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisLine.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisRenderer.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisRendererCircular.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisRendererRadial.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisRendererX.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisRendererX3D.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisRendererY.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisRendererY3D.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/AxisTick.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/CategoryAxis.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/CategoryAxisBreak.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/DateAxis.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/DateAxisBreak.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/DurationAxis.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/Grid.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/GridCircular.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/ValueAxis.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/axes/ValueAxisBreak.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/Chart.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/cursors/Cursor.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/cursors/RadarCursor.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/cursors/XYCursor.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/Bullet.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/Candlestick.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/ChordLink.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/ChordNode.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/CircleBullet.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/ClockHand.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/Column.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/Column3D.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/ConeColumn.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/CurvedColumn.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/ErrorBullet.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/FlowDiagramLink.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/FlowDiagramNode.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/FunnelSlice.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/FunnelTick.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/HeatLegend.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/LabelBullet.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/NavigationBar.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/OHLC.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/PieTick.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/RadarColumn.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/SankeyLink.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/SankeyNode.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/Tick.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/elements/XYChartScrollbar.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/Legend.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/CandlestickSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/ColumnSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/ColumnSeries3D.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/ConeSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/CurvedColumnSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/FunnelSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/LineSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/LineSeriesSegment.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/OHLCSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/PercentSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/PictorialStackedSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/PieSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/PieSeries3D.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/PyramidSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/RadarColumnSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/RadarSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/Series.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/StepLineSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/StepLineSeriesSegment.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/TreeMapSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/series/XYSeries.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/types/ChordDiagram.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/types/FlowDiagram.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/types/GaugeChart.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/types/PercentChart.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/types/PieChart.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/types/PieChart3D.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/types/RadarChart.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/types/SankeyDiagram.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/types/SerialChart.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/types/SlicedChart.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/types/TreeMap.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/types/XYChart.js",
+            "./node_modules/@amcharts/amcharts4/.internal/charts/types/XYChart3D.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/Base.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/Component.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/Container.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/data/CSVParser.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/data/DataLoader.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/data/DataParser.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/data/DataSource.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/data/JSONParser.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/DataItem.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/defs/SVGDefaults.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/3d/Cone.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/3d/Rectangle3D.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/3d/Slice3D.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/AmChartsLogo.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Button.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Circle.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/CloseButton.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Ellipse.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Grip.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Image.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Label.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Line.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Modal.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/PlayButton.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/PointedRectangle.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/PointedShape.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Polyarc.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Polygon.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Polyline.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Polyspline.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Popup.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/PopupCSS.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Preloader.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/QuadraticCurve.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Rectangle.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/ResizeButton.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/RoundedRectangle.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Scrollbar.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Slice.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Slider.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/SwitchButton.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/TextLink.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Tooltip.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Trapezoid.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/Triangle.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/WavedCircle.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/WavedLine.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/WavedRectangle.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/elements/ZoomOutButton.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/export/Export.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/export/ExportCSS.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/export/ExportMenu.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/formatters/DateFormatter.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/formatters/DurationFormatter.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/formatters/NumberFormatter.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/formatters/TextFormatter.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/interaction/Inertia.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/interaction/Interaction.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/interaction/InteractionKeyboardObject.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/interaction/InteractionObject.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/interaction/InteractionObjectEvents.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/interaction/Mouse.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/Options.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/Registry.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/AMElement.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/fills/CirclePattern.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/fills/ColorModifier.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/fills/GradientModifier.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/fills/LinearGradient.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/fills/LinearGradientModifier.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/fills/LinePattern.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/fills/Pattern.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/fills/RadialGradient.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/fills/RadialGradientModifier.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/fills/RectPattern.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/filters/BlurFilter.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/filters/ColorizeFilter.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/filters/DesaturateFilter.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/filters/DropShadowFilter.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/filters/Filter.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/filters/FocusFilter.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/filters/LightenFilter.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/Group.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/Paper.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/Path.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/Smoothing.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/rendering/SVGContainer.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/Sprite.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/SpriteEvents.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/SpriteState.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/System.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Adapter.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Animation.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Array.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/AsyncPending.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Browser.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Cache.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Color.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Colors.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/ColorSet.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Dictionary.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Disposer.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/DOM.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Ease.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/EventDispatcher.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Instance.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/InterfaceColorSet.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Iterator.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Keyboard.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Language.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/List.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Log.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Math.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Morpher.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Net.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Number.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Object.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Order.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/PatternSet.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Percent.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Plugin.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/ResizeSensor.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Responsive.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/SortedList.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/String.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Strings.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Time.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Type.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Utils.js",
+            "./node_modules/@amcharts/amcharts4/.internal/core/utils/Validatable.js",
+            "./node_modules/@amcharts/amcharts4/.internal/themes/material.js",
+            "./node_modules/@amcharts/amcharts4/charts.js",
+            "./node_modules/@amcharts/amcharts4/core.js",
+            "./node_modules/@amcharts/amcharts4/lang/en.js",
+            "./node_modules/@amcharts/amcharts4/themes/material.js",
+            "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./your-extensions/widgets/cities-diagrams/index.css",
+            "./node_modules/css-loader/dist/runtime/api.js",
+            "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+            "./node_modules/react-redux/dist/react-redux.mjs",
+            "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+            "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+            "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+            "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+            "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+            "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+            "./node_modules/tslib/tslib.es6.mjs",
+            "./node_modules/use-sync-external-store/cjs/use-sync-external-store-with-selector.production.min.js",
+            "./node_modules/use-sync-external-store/with-selector.js",
+            "./your-extensions/shared/hooks/index.tsx",
+            "./your-extensions/shared/utils/index.tsx",
+            "./your-extensions/widgets/cities-diagrams/index.css",
+            "./your-extensions/widgets/cities-diagrams/src/runtime/DiagramContainer.tsx",
+            "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/ lazy ^\\.\\/.*\\.json$ namespace object",
+            "./your-extensions/widgets/cities-diagrams/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/cities-diagrams/dist/setting/setting": {
+      "chunks": [
+        {
+          "id": "widgets/cities-diagrams/dist/setting/setting",
+          "names": [
+            "widgets/cities-diagrams/dist/setting/setting"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/cities-diagrams/src/setting/setting.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/cities-list/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": "widgets/cities-list/dist/runtime/widget",
+          "names": [
+            "widgets/cities-list/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./jimu-icons/outlined/editor/close.tsx",
+            "./jimu-icons/outlined/gis/pin-esri.tsx",
+            "./jimu-icons/svg/outlined/editor/close.svg",
+            "./jimu-icons/svg/outlined/gis/pin-esri.svg",
+            "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./your-extensions/widgets/cities-list/index.css",
+            "./node_modules/css-loader/dist/runtime/api.js",
+            "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+            "./node_modules/react-redux/dist/react-redux.mjs",
+            "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+            "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+            "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+            "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+            "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+            "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+            "./node_modules/use-sync-external-store/cjs/use-sync-external-store-with-selector.production.min.js",
+            "./node_modules/use-sync-external-store/with-selector.js",
+            "./your-extensions/shared/components/CloseButton.tsx",
+            "./your-extensions/shared/hooks/index.tsx",
+            "./your-extensions/widgets/cities-list/index.css",
+            "./your-extensions/widgets/cities-list/src/runtime/cities.ts",
+            "./your-extensions/widgets/cities-list/src/runtime/CityButton.tsx",
+            "./your-extensions/widgets/cities-list/src/runtime/CustomIconButton.tsx",
+            "./your-extensions/widgets/cities-list/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/cities-list/dist/setting/setting": {
+      "chunks": [
+        {
+          "id": "widgets/cities-list/dist/setting/setting",
+          "names": [
+            "widgets/cities-list/dist/setting/setting"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/cities-list/src/setting/setting.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/custom-header/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": "widgets/custom-header/dist/runtime/widget",
+          "names": [
+            "widgets/custom-header/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./your-extensions/widgets/custom-header/index.css",
+            "./node_modules/css-loader/dist/runtime/api.js",
+            "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+            "./node_modules/react-redux/dist/react-redux.mjs",
+            "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+            "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+            "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+            "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+            "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+            "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+            "./node_modules/use-sync-external-store/cjs/use-sync-external-store-with-selector.production.min.js",
+            "./node_modules/use-sync-external-store/with-selector.js",
+            "./your-extensions/shared/hooks/index.tsx",
+            "./your-extensions/widgets/custom-header/index.css",
+            "./your-extensions/widgets/custom-header/src/assets/adaptive-logo.png",
+            "./your-extensions/widgets/custom-header/src/assets/burger-menu.svg",
+            "./your-extensions/widgets/custom-header/src/assets/close.svg",
+            "./your-extensions/widgets/custom-header/src/assets/en.png",
+            "./your-extensions/widgets/custom-header/src/assets/gr.png",
+            "./your-extensions/widgets/custom-header/src/runtime/BurgerMenu.tsx",
+            "./your-extensions/widgets/custom-header/src/runtime/LanguageSwitcher.tsx",
+            "./your-extensions/widgets/custom-header/src/runtime/links.ts",
+            "./your-extensions/widgets/custom-header/src/runtime/MenuLinks.tsx",
+            "./your-extensions/widgets/custom-header/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/custom-header/dist/setting/setting": {
+      "chunks": [
+        {
+          "id": "widgets/custom-header/dist/setting/setting",
+          "names": [
+            "widgets/custom-header/dist/setting/setting"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/custom-header/src/setting/setting.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/custom-legend/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": "widgets/custom-legend/dist/runtime/widget",
+          "names": [
+            "widgets/custom-legend/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./your-extensions/widgets/custom-legend/index.css",
+            "./node_modules/css-loader/dist/runtime/api.js",
+            "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+            "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+            "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+            "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+            "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+            "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+            "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+            "./your-extensions/shared/hooks/index.tsx",
+            "./your-extensions/widgets/custom-legend/index.css",
+            "./your-extensions/widgets/custom-legend/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/custom-legend/dist/setting/setting": {
+      "chunks": [
+        {
+          "id": "widgets/custom-legend/dist/setting/setting",
+          "names": [
+            "widgets/custom-legend/dist/setting/setting"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/custom-legend/src/setting/setting.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/custom-popup/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": "widgets/custom-popup/dist/runtime/widget",
+          "names": [
+            "widgets/custom-popup/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./jimu-icons/svg/outlined/directional/down.svg",
+            "./jimu-icons/svg/outlined/directional/up.svg",
+            "./node_modules/axios/lib/adapters/adapters.js",
+            "./node_modules/axios/lib/adapters/fetch.js",
+            "./node_modules/axios/lib/adapters/xhr.js",
+            "./node_modules/axios/lib/axios.js",
+            "./node_modules/axios/lib/cancel/CanceledError.js",
+            "./node_modules/axios/lib/cancel/CancelToken.js",
+            "./node_modules/axios/lib/cancel/isCancel.js",
+            "./node_modules/axios/lib/core/Axios.js",
+            "./node_modules/axios/lib/core/AxiosError.js",
+            "./node_modules/axios/lib/core/AxiosHeaders.js",
+            "./node_modules/axios/lib/core/buildFullPath.js",
+            "./node_modules/axios/lib/core/dispatchRequest.js",
+            "./node_modules/axios/lib/core/InterceptorManager.js",
+            "./node_modules/axios/lib/core/mergeConfig.js",
+            "./node_modules/axios/lib/core/settle.js",
+            "./node_modules/axios/lib/core/transformData.js",
+            "./node_modules/axios/lib/defaults/index.js",
+            "./node_modules/axios/lib/defaults/transitional.js",
+            "./node_modules/axios/lib/env/data.js",
+            "./node_modules/axios/lib/helpers/AxiosURLSearchParams.js",
+            "./node_modules/axios/lib/helpers/bind.js",
+            "./node_modules/axios/lib/helpers/buildURL.js",
+            "./node_modules/axios/lib/helpers/combineURLs.js",
+            "./node_modules/axios/lib/helpers/composeSignals.js",
+            "./node_modules/axios/lib/helpers/cookies.js",
+            "./node_modules/axios/lib/helpers/formDataToJSON.js",
+            "./node_modules/axios/lib/helpers/HttpStatusCode.js",
+            "./node_modules/axios/lib/helpers/isAbsoluteURL.js",
+            "./node_modules/axios/lib/helpers/isAxiosError.js",
+            "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
+            "./node_modules/axios/lib/helpers/null.js",
+            "./node_modules/axios/lib/helpers/parseHeaders.js",
+            "./node_modules/axios/lib/helpers/parseProtocol.js",
+            "./node_modules/axios/lib/helpers/progressEventReducer.js",
+            "./node_modules/axios/lib/helpers/resolveConfig.js",
+            "./node_modules/axios/lib/helpers/speedometer.js",
+            "./node_modules/axios/lib/helpers/spread.js",
+            "./node_modules/axios/lib/helpers/throttle.js",
+            "./node_modules/axios/lib/helpers/toFormData.js",
+            "./node_modules/axios/lib/helpers/toURLEncodedForm.js",
+            "./node_modules/axios/lib/helpers/trackStream.js",
+            "./node_modules/axios/lib/helpers/validator.js",
+            "./node_modules/axios/lib/platform/browser/classes/Blob.js",
+            "./node_modules/axios/lib/platform/browser/classes/FormData.js",
+            "./node_modules/axios/lib/platform/browser/classes/URLSearchParams.js",
+            "./node_modules/axios/lib/platform/browser/index.js",
+            "./node_modules/axios/lib/platform/common/utils.js",
+            "./node_modules/axios/lib/platform/index.js",
+            "./node_modules/axios/lib/utils.js",
+            "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./your-extensions/widgets/custom-popup/index.css",
+            "./node_modules/css-loader/dist/runtime/api.js",
+            "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+            "./node_modules/react-redux/dist/react-redux.mjs",
+            "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+            "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+            "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+            "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+            "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+            "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+            "./node_modules/use-sync-external-store/cjs/use-sync-external-store-with-selector.production.min.js",
+            "./node_modules/use-sync-external-store/with-selector.js",
+            "./your-extensions/shared/components/UserMessages.tsx",
+            "./your-extensions/shared/hooks/index.tsx",
+            "./your-extensions/widgets/custom-popup/index.css",
+            "./your-extensions/widgets/custom-popup/src/runtime/CustomPopup.tsx",
+            "./your-extensions/widgets/custom-popup/src/runtime/CustomPopupHover.tsx",
+            "./your-extensions/widgets/custom-popup/src/runtime/greeceExtend.ts",
+            "./your-extensions/widgets/custom-popup/src/runtime/layers.ts",
+            "./your-extensions/widgets/custom-popup/src/runtime/utils.ts",
+            "./your-extensions/widgets/custom-popup/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/custom-popup/dist/setting/setting": {
+      "chunks": [
+        {
+          "id": "widgets/custom-popup/dist/setting/setting",
+          "names": [
+            "widgets/custom-popup/dist/setting/setting"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/custom-popup/src/setting/setting.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/download-btn/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": "widgets/download-btn/dist/runtime/widget",
+          "names": [
+            "widgets/download-btn/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./jimu-icons/outlined/editor/download.tsx",
+            "./jimu-icons/svg/outlined/editor/download.svg",
+            "./node_modules/react-redux/dist/react-redux.mjs",
+            "./node_modules/use-sync-external-store/cjs/use-sync-external-store-with-selector.production.min.js",
+            "./node_modules/use-sync-external-store/with-selector.js",
+            "./your-extensions/shared/hooks/index.tsx",
+            "./your-extensions/widgets/download-btn/src/runtime/CustomIconButton.tsx",
+            "./your-extensions/widgets/download-btn/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/download-btn/dist/setting/setting": {
+      "chunks": [
+        {
+          "id": "widgets/download-btn/dist/setting/setting",
+          "names": [
+            "widgets/download-btn/dist/setting/setting"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/download-btn/src/setting/setting.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/footer/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": "widgets/footer/dist/runtime/widget",
+          "names": [
+            "widgets/footer/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./your-extensions/widgets/footer/index.css",
+            "./node_modules/css-loader/dist/runtime/api.js",
+            "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+            "./node_modules/react-redux/dist/react-redux.mjs",
+            "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+            "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+            "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+            "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+            "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+            "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+            "./node_modules/use-sync-external-store/cjs/use-sync-external-store-with-selector.production.min.js",
+            "./node_modules/use-sync-external-store/with-selector.js",
+            "./your-extensions/shared/assets/adaptive-footer-logo.png",
+            "./your-extensions/shared/assets/eu-life-logo.png",
+            "./your-extensions/shared/assets/ofypeka-logo-footer.png",
+            "./your-extensions/shared/hooks/index.tsx",
+            "./your-extensions/widgets/footer/index.css",
+            "./your-extensions/widgets/footer/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/footer/dist/setting/setting": {
+      "chunks": [
+        {
+          "id": "widgets/footer/dist/setting/setting",
+          "names": [
+            "widgets/footer/dist/setting/setting"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/footer/src/setting/setting.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/info-widget/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": "widgets/info-widget/dist/runtime/widget",
+          "names": [
+            "widgets/info-widget/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./jimu-icons/outlined/editor/close.tsx",
+            "./jimu-icons/outlined/suggested/info.tsx",
+            "./jimu-icons/svg/outlined/editor/close.svg",
+            "./jimu-icons/svg/outlined/suggested/info.svg",
+            "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./your-extensions/widgets/info-widget/index.css",
+            "./node_modules/css-loader/dist/runtime/api.js",
+            "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+            "./node_modules/react-redux/dist/react-redux.mjs",
+            "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+            "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+            "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+            "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+            "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+            "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+            "./node_modules/use-sync-external-store/cjs/use-sync-external-store-with-selector.production.min.js",
+            "./node_modules/use-sync-external-store/with-selector.js",
+            "./your-extensions/shared/components/CloseButton.tsx",
+            "./your-extensions/shared/hooks/index.tsx",
+            "./your-extensions/widgets/info-widget/index.css",
+            "./your-extensions/widgets/info-widget/src/runtime/abstracts.json",
+            "./your-extensions/widgets/info-widget/src/runtime/CustomIconButton.tsx",
+            "./your-extensions/widgets/info-widget/src/runtime/CustomModal.tsx",
+            "./your-extensions/widgets/info-widget/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/info-widget/dist/setting/setting": {
+      "chunks": [
+        {
+          "id": "widgets/info-widget/dist/setting/setting",
+          "names": [
+            "widgets/info-widget/dist/setting/setting"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/info-widget/src/setting/setting.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/language-switcher/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": "widgets/language-switcher/dist/runtime/widget",
+          "names": [
+            "widgets/language-switcher/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./your-extensions/widgets/language-switcher/index.css",
+            "./node_modules/css-loader/dist/runtime/api.js",
+            "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+            "./node_modules/react-redux/dist/react-redux.mjs",
+            "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+            "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+            "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+            "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+            "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+            "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+            "./node_modules/use-sync-external-store/cjs/use-sync-external-store-with-selector.production.min.js",
+            "./node_modules/use-sync-external-store/with-selector.js",
+            "./your-extensions/shared/hooks/index.tsx",
+            "./your-extensions/widgets/language-switcher/assets/en.png",
+            "./your-extensions/widgets/language-switcher/assets/gr.png",
+            "./your-extensions/widgets/language-switcher/index.css",
+            "./your-extensions/widgets/language-switcher/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/language-switcher/dist/setting/setting": {
+      "chunks": [
+        {
+          "id": "widgets/language-switcher/dist/setting/setting",
+          "names": [
+            "widgets/language-switcher/dist/setting/setting"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/language-switcher/src/setting/setting.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/menu-links/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": "widgets/menu-links/dist/runtime/widget",
+          "names": [
+            "widgets/menu-links/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./your-extensions/widgets/menu-links/index.css",
+            "./node_modules/css-loader/dist/runtime/api.js",
+            "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+            "./node_modules/react-redux/dist/react-redux.mjs",
+            "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+            "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+            "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+            "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+            "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+            "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+            "./node_modules/use-sync-external-store/cjs/use-sync-external-store-with-selector.production.min.js",
+            "./node_modules/use-sync-external-store/with-selector.js",
+            "./your-extensions/shared/hooks/index.tsx",
+            "./your-extensions/widgets/menu-links/index.css",
+            "./your-extensions/widgets/menu-links/src/runtime/links.ts",
+            "./your-extensions/widgets/menu-links/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/menu-links/dist/setting/setting": {
+      "chunks": [
+        {
+          "id": "widgets/menu-links/dist/setting/setting",
+          "names": [
+            "widgets/menu-links/dist/setting/setting"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/menu-links/src/setting/setting.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/opacity-slider/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": "widgets/opacity-slider/dist/runtime/widget",
+          "names": [
+            "widgets/opacity-slider/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./your-extensions/widgets/opacity-slider/index.css",
+            "./node_modules/css-loader/dist/runtime/api.js",
+            "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+            "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+            "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+            "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+            "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+            "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+            "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+            "./your-extensions/shared/hooks/index.tsx",
+            "./your-extensions/widgets/opacity-slider/index.css",
+            "./your-extensions/widgets/opacity-slider/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/opacity-slider/dist/setting/setting": {
+      "chunks": [
+        {
+          "id": "widgets/opacity-slider/dist/setting/setting",
+          "names": [
+            "widgets/opacity-slider/dist/setting/setting"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/opacity-slider/src/setting/setting.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/rasters-menu/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": "widgets/rasters-menu/dist/runtime/widget",
+          "names": [
+            "widgets/rasters-menu/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./your-extensions/widgets/rasters-menu/index.css",
+            "./node_modules/css-loader/dist/runtime/api.js",
+            "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+            "./node_modules/react-redux/dist/react-redux.mjs",
+            "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
+            "./node_modules/style-loader/dist/runtime/insertBySelector.js",
+            "./node_modules/style-loader/dist/runtime/insertStyleElement.js",
+            "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js",
+            "./node_modules/style-loader/dist/runtime/styleDomAPI.js",
+            "./node_modules/style-loader/dist/runtime/styleTagTransform.js",
+            "./node_modules/use-sync-external-store/cjs/use-sync-external-store-with-selector.production.min.js",
+            "./node_modules/use-sync-external-store/with-selector.js",
+            "./your-extensions/shared/components/UserMessages.tsx",
+            "./your-extensions/shared/hooks/index.tsx",
+            "./your-extensions/widgets/rasters-menu/index.css",
+            "./your-extensions/widgets/rasters-menu/src/runtime/filters/indexes.js",
+            "./your-extensions/widgets/rasters-menu/src/runtime/filters/scenarios.js",
+            "./your-extensions/widgets/rasters-menu/src/runtime/filters/seasons.js",
+            "./your-extensions/widgets/rasters-menu/src/runtime/filters/timeline.js",
+            "./your-extensions/widgets/rasters-menu/src/runtime/FiltersDropdown.tsx",
+            "./your-extensions/widgets/rasters-menu/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/rasters-menu/dist/setting/setting": {
+      "chunks": [
+        {
+          "id": "widgets/rasters-menu/dist/setting/setting",
+          "names": [
+            "widgets/rasters-menu/dist/setting/setting"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/rasters-menu/src/setting/setting.tsx"
+          ]
+        }
+      ]
+    },
+    "widgets/simple/dist/runtime/widget": {
+      "chunks": [
+        {
+          "id": "widgets/simple/dist/runtime/widget",
+          "names": [
+            "widgets/simple/dist/runtime/widget"
+          ],
+          "modules": [
+            "./jimu-core/lib/set-public-path.ts",
+            "./your-extensions/widgets/simple/src/runtime/widget.tsx"
+          ]
+        }
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "fileName": "widgets/chunks/canvg.js",
+      "modules": [
+        "./node_modules/@amcharts/amcharts4/.internal/canvg/index.js",
+        "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
+        "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js",
+        "./node_modules/@babel/runtime/helpers/esm/defineProperty.js",
+        "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js",
+        "./node_modules/@babel/runtime/helpers/esm/createClass.js",
+        "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js",
+        "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+        "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js",
+        "./node_modules/@babel/runtime/helpers/esm/inherits.js",
+        "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
+        "./node_modules/@babel/runtime/helpers/esm/get.js",
+        "./node_modules/stackblur-canvas/dist/stackblur-es.js",
+        "./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js",
+        "./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js",
+        "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
+        "./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js",
+        "./node_modules/@babel/runtime/helpers/esm/toPropertyKey.js",
+        "./node_modules/@babel/runtime/helpers/esm/typeof.js",
+        "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js",
+        "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js",
+        "./node_modules/@babel/runtime/helpers/esm/iterableToArray.js",
+        "./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js",
+        "./node_modules/@babel/runtime/helpers/esm/superPropBase.js",
+        "./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js",
+        "./node_modules/@babel/runtime/helpers/esm/toPrimitive.js",
+        "./node_modules/@babel/runtime/helpers/regeneratorRuntime.js",
+        "./node_modules/@babel/runtime/helpers/typeof.js",
+        "./node_modules/@babel/runtime/regenerator/index.js",
+        "./node_modules/core-js/internals/a-callable.js",
+        "./node_modules/core-js/internals/a-constructor.js",
+        "./node_modules/core-js/internals/a-possible-prototype.js",
+        "./node_modules/core-js/internals/add-to-unscopables.js",
+        "./node_modules/core-js/internals/advance-string-index.js",
+        "./node_modules/core-js/internals/an-instance.js",
+        "./node_modules/core-js/internals/an-object.js",
+        "./node_modules/core-js/internals/array-buffer-non-extensible.js",
+        "./node_modules/core-js/internals/array-fill.js",
+        "./node_modules/core-js/internals/array-for-each.js",
+        "./node_modules/core-js/internals/array-from.js",
+        "./node_modules/core-js/internals/array-includes.js",
+        "./node_modules/core-js/internals/array-iteration.js",
+        "./node_modules/core-js/internals/array-method-has-species-support.js",
+        "./node_modules/core-js/internals/array-method-is-strict.js",
+        "./node_modules/core-js/internals/array-reduce.js",
+        "./node_modules/core-js/internals/array-slice.js",
+        "./node_modules/core-js/internals/array-species-constructor.js",
+        "./node_modules/core-js/internals/array-species-create.js",
+        "./node_modules/core-js/internals/call-with-safe-iteration-closing.js",
+        "./node_modules/core-js/internals/check-correctness-of-iteration.js",
+        "./node_modules/core-js/internals/classof-raw.js",
+        "./node_modules/core-js/internals/classof.js",
+        "./node_modules/core-js/internals/collection-strong.js",
+        "./node_modules/core-js/internals/collection.js",
+        "./node_modules/core-js/internals/copy-constructor-properties.js",
+        "./node_modules/core-js/internals/correct-is-regexp-logic.js",
+        "./node_modules/core-js/internals/correct-prototype-getter.js",
+        "./node_modules/core-js/internals/create-iter-result-object.js",
+        "./node_modules/core-js/internals/create-non-enumerable-property.js",
+        "./node_modules/core-js/internals/create-property-descriptor.js",
+        "./node_modules/core-js/internals/create-property.js",
+        "./node_modules/core-js/internals/define-built-in-accessor.js",
+        "./node_modules/core-js/internals/define-built-in.js",
+        "./node_modules/core-js/internals/define-built-ins.js",
+        "./node_modules/core-js/internals/define-global-property.js",
+        "./node_modules/core-js/internals/descriptors.js",
+        "./node_modules/core-js/internals/document-create-element.js",
+        "./node_modules/core-js/internals/does-not-exceed-safe-integer.js",
+        "./node_modules/core-js/internals/dom-iterables.js",
+        "./node_modules/core-js/internals/dom-token-list-prototype.js",
+        "./node_modules/core-js/internals/enum-bug-keys.js",
+        "./node_modules/core-js/internals/environment-is-ios-pebble.js",
+        "./node_modules/core-js/internals/environment-is-ios.js",
+        "./node_modules/core-js/internals/environment-is-node.js",
+        "./node_modules/core-js/internals/environment-is-webos-webkit.js",
+        "./node_modules/core-js/internals/environment-user-agent.js",
+        "./node_modules/core-js/internals/environment-v8-version.js",
+        "./node_modules/core-js/internals/environment.js",
+        "./node_modules/core-js/internals/export.js",
+        "./node_modules/core-js/internals/fails.js",
+        "./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js",
+        "./node_modules/core-js/internals/freezing.js",
+        "./node_modules/core-js/internals/function-apply.js",
+        "./node_modules/core-js/internals/function-bind-context.js",
+        "./node_modules/core-js/internals/function-bind-native.js",
+        "./node_modules/core-js/internals/function-bind.js",
+        "./node_modules/core-js/internals/function-call.js",
+        "./node_modules/core-js/internals/function-name.js",
+        "./node_modules/core-js/internals/function-uncurry-this-accessor.js",
+        "./node_modules/core-js/internals/function-uncurry-this-clause.js",
+        "./node_modules/core-js/internals/function-uncurry-this.js",
+        "./node_modules/core-js/internals/get-built-in.js",
+        "./node_modules/core-js/internals/get-iterator-method.js",
+        "./node_modules/core-js/internals/get-iterator.js",
+        "./node_modules/core-js/internals/get-json-replacer-function.js",
+        "./node_modules/core-js/internals/get-method.js",
+        "./node_modules/core-js/internals/get-substitution.js",
+        "./node_modules/core-js/internals/global-this.js",
+        "./node_modules/core-js/internals/has-own-property.js",
+        "./node_modules/core-js/internals/hidden-keys.js",
+        "./node_modules/core-js/internals/host-report-errors.js",
+        "./node_modules/core-js/internals/html.js",
+        "./node_modules/core-js/internals/ie8-dom-define.js",
+        "./node_modules/core-js/internals/indexed-object.js",
+        "./node_modules/core-js/internals/inherit-if-required.js",
+        "./node_modules/core-js/internals/inspect-source.js",
+        "./node_modules/core-js/internals/internal-metadata.js",
+        "./node_modules/core-js/internals/internal-state.js",
+        "./node_modules/core-js/internals/is-array-iterator-method.js",
+        "./node_modules/core-js/internals/is-array.js",
+        "./node_modules/core-js/internals/is-callable.js",
+        "./node_modules/core-js/internals/is-constructor.js",
+        "./node_modules/core-js/internals/is-forced.js",
+        "./node_modules/core-js/internals/is-null-or-undefined.js",
+        "./node_modules/core-js/internals/is-object.js",
+        "./node_modules/core-js/internals/is-possible-prototype.js",
+        "./node_modules/core-js/internals/is-pure.js",
+        "./node_modules/core-js/internals/is-regexp.js",
+        "./node_modules/core-js/internals/is-symbol.js",
+        "./node_modules/core-js/internals/iterate.js",
+        "./node_modules/core-js/internals/iterator-close.js",
+        "./node_modules/core-js/internals/iterator-create-constructor.js",
+        "./node_modules/core-js/internals/iterator-define.js",
+        "./node_modules/core-js/internals/iterators-core.js",
+        "./node_modules/core-js/internals/iterators.js",
+        "./node_modules/core-js/internals/length-of-array-like.js",
+        "./node_modules/core-js/internals/make-built-in.js",
+        "./node_modules/core-js/internals/math-trunc.js",
+        "./node_modules/core-js/internals/microtask.js",
+        "./node_modules/core-js/internals/new-promise-capability.js",
+        "./node_modules/core-js/internals/not-a-regexp.js",
+        "./node_modules/core-js/internals/object-create.js",
+        "./node_modules/core-js/internals/object-define-properties.js",
+        "./node_modules/core-js/internals/object-define-property.js",
+        "./node_modules/core-js/internals/object-get-own-property-descriptor.js",
+        "./node_modules/core-js/internals/object-get-own-property-names-external.js",
+        "./node_modules/core-js/internals/object-get-own-property-names.js",
+        "./node_modules/core-js/internals/object-get-own-property-symbols.js",
+        "./node_modules/core-js/internals/object-get-prototype-of.js",
+        "./node_modules/core-js/internals/object-is-extensible.js",
+        "./node_modules/core-js/internals/object-is-prototype-of.js",
+        "./node_modules/core-js/internals/object-keys-internal.js",
+        "./node_modules/core-js/internals/object-keys.js",
+        "./node_modules/core-js/internals/object-property-is-enumerable.js",
+        "./node_modules/core-js/internals/object-set-prototype-of.js",
+        "./node_modules/core-js/internals/object-to-string.js",
+        "./node_modules/core-js/internals/ordinary-to-primitive.js",
+        "./node_modules/core-js/internals/own-keys.js",
+        "./node_modules/core-js/internals/path.js",
+        "./node_modules/core-js/internals/perform.js",
+        "./node_modules/core-js/internals/promise-constructor-detection.js",
+        "./node_modules/core-js/internals/promise-native-constructor.js",
+        "./node_modules/core-js/internals/promise-resolve.js",
+        "./node_modules/core-js/internals/promise-statics-incorrect-iteration.js",
+        "./node_modules/core-js/internals/queue.js",
+        "./node_modules/core-js/internals/regexp-exec-abstract.js",
+        "./node_modules/core-js/internals/regexp-exec.js",
+        "./node_modules/core-js/internals/regexp-flags.js",
+        "./node_modules/core-js/internals/regexp-get-flags.js",
+        "./node_modules/core-js/internals/regexp-sticky-helpers.js",
+        "./node_modules/core-js/internals/regexp-unsupported-dot-all.js",
+        "./node_modules/core-js/internals/regexp-unsupported-ncg.js",
+        "./node_modules/core-js/internals/require-object-coercible.js",
+        "./node_modules/core-js/internals/safe-get-built-in.js",
+        "./node_modules/core-js/internals/set-species.js",
+        "./node_modules/core-js/internals/set-to-string-tag.js",
+        "./node_modules/core-js/internals/shared-key.js",
+        "./node_modules/core-js/internals/shared-store.js",
+        "./node_modules/core-js/internals/shared.js",
+        "./node_modules/core-js/internals/species-constructor.js",
+        "./node_modules/core-js/internals/string-multibyte.js",
+        "./node_modules/core-js/internals/string-trim-forced.js",
+        "./node_modules/core-js/internals/string-trim.js",
+        "./node_modules/core-js/internals/symbol-constructor-detection.js",
+        "./node_modules/core-js/internals/symbol-define-to-primitive.js",
+        "./node_modules/core-js/internals/symbol-registry-detection.js",
+        "./node_modules/core-js/internals/task.js",
+        "./node_modules/core-js/internals/this-number-value.js",
+        "./node_modules/core-js/internals/to-absolute-index.js",
+        "./node_modules/core-js/internals/to-indexed-object.js",
+        "./node_modules/core-js/internals/to-integer-or-infinity.js",
+        "./node_modules/core-js/internals/to-length.js",
+        "./node_modules/core-js/internals/to-object.js",
+        "./node_modules/core-js/internals/to-primitive.js",
+        "./node_modules/core-js/internals/to-property-key.js",
+        "./node_modules/core-js/internals/to-string-tag-support.js",
+        "./node_modules/core-js/internals/to-string.js",
+        "./node_modules/core-js/internals/try-to-string.js",
+        "./node_modules/core-js/internals/uid.js",
+        "./node_modules/core-js/internals/use-symbol-as-uid.js",
+        "./node_modules/core-js/internals/v8-prototype-define-bug.js",
+        "./node_modules/core-js/internals/validate-arguments-length.js",
+        "./node_modules/core-js/internals/weak-map-basic-detection.js",
+        "./node_modules/core-js/internals/well-known-symbol-define.js",
+        "./node_modules/core-js/internals/well-known-symbol-wrapped.js",
+        "./node_modules/core-js/internals/well-known-symbol.js",
+        "./node_modules/core-js/internals/whitespaces.js",
+        "./node_modules/core-js/modules/es.array.concat.js",
+        "./node_modules/core-js/modules/es.array.every.js",
+        "./node_modules/core-js/modules/es.array.fill.js",
+        "./node_modules/core-js/modules/es.array.filter.js",
+        "./node_modules/core-js/modules/es.array.for-each.js",
+        "./node_modules/core-js/modules/es.array.from.js",
+        "./node_modules/core-js/modules/es.array.includes.js",
+        "./node_modules/core-js/modules/es.array.index-of.js",
+        "./node_modules/core-js/modules/es.array.iterator.js",
+        "./node_modules/core-js/modules/es.array.join.js",
+        "./node_modules/core-js/modules/es.array.map.js",
+        "./node_modules/core-js/modules/es.array.reduce.js",
+        "./node_modules/core-js/modules/es.array.reverse.js",
+        "./node_modules/core-js/modules/es.array.slice.js",
+        "./node_modules/core-js/modules/es.array.some.js",
+        "./node_modules/core-js/modules/es.function.name.js",
+        "./node_modules/core-js/modules/es.json.stringify.js",
+        "./node_modules/core-js/modules/es.map.constructor.js",
+        "./node_modules/core-js/modules/es.map.js",
+        "./node_modules/core-js/modules/es.number.constructor.js",
+        "./node_modules/core-js/modules/es.object.get-own-property-descriptor.js",
+        "./node_modules/core-js/modules/es.object.get-own-property-descriptors.js",
+        "./node_modules/core-js/modules/es.object.get-own-property-symbols.js",
+        "./node_modules/core-js/modules/es.object.keys.js",
+        "./node_modules/core-js/modules/es.object.to-string.js",
+        "./node_modules/core-js/modules/es.promise.all.js",
+        "./node_modules/core-js/modules/es.promise.catch.js",
+        "./node_modules/core-js/modules/es.promise.constructor.js",
+        "./node_modules/core-js/modules/es.promise.js",
+        "./node_modules/core-js/modules/es.promise.race.js",
+        "./node_modules/core-js/modules/es.promise.reject.js",
+        "./node_modules/core-js/modules/es.promise.resolve.js",
+        "./node_modules/core-js/modules/es.reflect.apply.js",
+        "./node_modules/core-js/modules/es.reflect.construct.js",
+        "./node_modules/core-js/modules/es.reflect.delete-property.js",
+        "./node_modules/core-js/modules/es.reflect.get-prototype-of.js",
+        "./node_modules/core-js/modules/es.regexp.exec.js",
+        "./node_modules/core-js/modules/es.regexp.to-string.js",
+        "./node_modules/core-js/modules/es.string.includes.js",
+        "./node_modules/core-js/modules/es.string.iterator.js",
+        "./node_modules/core-js/modules/es.string.match.js",
+        "./node_modules/core-js/modules/es.string.replace.js",
+        "./node_modules/core-js/modules/es.string.split.js",
+        "./node_modules/core-js/modules/es.string.starts-with.js",
+        "./node_modules/core-js/modules/es.string.trim.js",
+        "./node_modules/core-js/modules/es.symbol.constructor.js",
+        "./node_modules/core-js/modules/es.symbol.description.js",
+        "./node_modules/core-js/modules/es.symbol.for.js",
+        "./node_modules/core-js/modules/es.symbol.iterator.js",
+        "./node_modules/core-js/modules/es.symbol.js",
+        "./node_modules/core-js/modules/es.symbol.key-for.js",
+        "./node_modules/core-js/modules/web.dom-collections.for-each.js",
+        "./node_modules/core-js/modules/web.dom-collections.iterator.js",
+        "./node_modules/performance-now/lib/performance-now.js",
+        "./node_modules/raf/index.js",
+        "./node_modules/rgbcolor/index.js"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/pdfmake.js",
+      "modules": [
+        "./node_modules/@amcharts/amcharts4/.internal/pdfmake/vfs_fonts.js",
+        "./node_modules/pdfmake/build/pdfmake.js"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/xlsx.js",
+      "modules": [
+        "./node_modules/@amcharts/amcharts4/.internal/bundled/xlsx/xlsx.mjs"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_agios_nikolaos_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/agios_nikolaos.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_alexandroupoli_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/alexandroupoli.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_amfissa_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/amfissa.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_argostoli_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/argostoli.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_arta_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/arta.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_athens_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/athens.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_drama_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/drama.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_edessa_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/edessa.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_ermoupoli_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/ermoupoli.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_florina_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/florina.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_grevena_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/grevena.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_igoumenitsa_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/igoumenitsa.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_ioannina_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/ioannina.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_irakleio_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/irakleio.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_kalamata_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/kalamata.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_karditsa_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/karditsa.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_karpenisi_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/karpenisi.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_kastoria_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/kastoria.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_katerini_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/katerini.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_kavala_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/kavala.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_kerkyra_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/kerkyra.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_kilkis_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/kilkis.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_komotini_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/komotini.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_korinthos_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/korinthos.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_kozani_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/kozani.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_lamia_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/lamia.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_larisa_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/larisa.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_leivadia_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/leivadia.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_leukada_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/leukada.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_mesologi_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/mesologi.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_mitilini_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/mitilini.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_nafplio_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/nafplio.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_patra_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/patra.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_polygyros_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/polygyros.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_preveza_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/preveza.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_pyrgos_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/pyrgos.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_rethimno_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/rethimno.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_rodos_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/rodos.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_samos_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/samos.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_serres_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/serres.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_sparti_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/sparti.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_thessaloniki_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/thessaloniki.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_trikala_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/trikala.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_tripoli_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/tripoli.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_veroia_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/veroia.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_volos_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/volos.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_xalkida_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/xalkida.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_xania_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/xania.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_xanthi_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/xanthi.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_xios_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/xios.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    },
+    {
+      "fileName": "widgets/chunks/cities-diagrams_src_runtime_timelines_zakynthos_json.js",
+      "modules": [
+        "./your-extensions/widgets/cities-diagrams/src/runtime/timelines/zakynthos.json"
+      ],
+      "usedBy": [
+        "widgets/cities-diagrams/dist/runtime/widget"
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "outputPath": "C:\\Users\\VasilisPapakonstanti\\Desktop\\ArcGISExperienceBuilder\\client\\dist-prod",
+  "publicPath": "",
+  "version": "5.96.1"
+}

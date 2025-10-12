@@ -1,0 +1,57 @@
+.about-wrapper {
+    padding: 100px 0;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    color: #2a6530;
+    margin-bottom: 70px;
+}
+
+.about-link,
+.about-link:hover {
+    text-decoration: underline;
+    color: #101a70;
+}
+
+.about-list {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+ol.about-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.about-list:not(ol) > li {
+    margin-bottom: 2rem;
+}
+
+.about-hr {
+    border: 2px solid #5eac44;
+    opacity: 1;
+    margin: 50px 0;
+}
+
+@media (max-width: 576px) {
+
+    .table-container {
+        overflow-x: scroll;
+        padding-bottom: 5px;
+    }
+
+    .about-wrapper {
+        padding: 20px 0;
+    }
+
+    .about-title {
+        font-size: 2.5rem;
+        color: #2a6530;
+        margin-bottom: 20px;
+    }
+
+
+}
+

@@ -1,0 +1,21 @@
+{
+  "name": "menu-links",
+  "type": "widget",
+  "version": "1.17.0",
+  "exbVersion": "1.17.0",
+  "author": "Vasilis Papakonstantinou",
+  "description": "A custom widget, navigation menu",
+  "copyright": "",
+  "license": "",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 400,
+    "height": 400
+  },
+  "dependency": [
+    "jimu-arcgis"
+  ]
+}

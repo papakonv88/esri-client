@@ -1,0 +1,418 @@
+{
+  "nodes": [
+    {
+      "name": "widgets/about-us/dist/runtime/widget",
+      "size": 42490
+    },
+    {
+      "name": "widgets/about-us/dist/setting/setting",
+      "size": 1688
+    },
+    {
+      "name": "widgets/cities-diagrams/dist/runtime/widget",
+      "size": 3624528
+    },
+    {
+      "name": "widgets/cities-diagrams/dist/setting/setting",
+      "size": 1688
+    },
+    {
+      "name": "widgets/cities-list/dist/runtime/widget",
+      "size": 71509
+    },
+    {
+      "name": "widgets/cities-list/dist/setting/setting",
+      "size": 1688
+    },
+    {
+      "name": "widgets/custom-legend/dist/runtime/widget",
+      "size": 18327
+    },
+    {
+      "name": "widgets/custom-legend/dist/setting/setting",
+      "size": 1688
+    },
+    {
+      "name": "widgets/custom-popup/dist/runtime/widget",
+      "size": 140939
+    },
+    {
+      "name": "widgets/custom-popup/dist/setting/setting",
+      "size": 1688
+    },
+    {
+      "name": "widgets/download-btn/dist/runtime/widget",
+      "size": 6438
+    },
+    {
+      "name": "widgets/download-btn/dist/setting/setting",
+      "size": 1691
+    },
+    {
+      "name": "widgets/footer/dist/runtime/widget",
+      "size": 100515
+    },
+    {
+      "name": "widgets/footer/dist/setting/setting",
+      "size": 1691
+    },
+    {
+      "name": "widgets/info-widget/dist/runtime/widget",
+      "size": 614754
+    },
+    {
+      "name": "widgets/info-widget/dist/setting/setting",
+      "size": 1688
+    },
+    {
+      "name": "widgets/language-switcher/dist/runtime/widget",
+      "size": 57989
+    },
+    {
+      "name": "widgets/language-switcher/dist/setting/setting",
+      "size": 1688
+    },
+    {
+      "name": "widgets/opacity-slider/dist/runtime/widget",
+      "size": 15927
+    },
+    {
+      "name": "widgets/opacity-slider/dist/setting/setting",
+      "size": 1688
+    },
+    {
+      "name": "widgets/rasters-menu/dist/runtime/widget",
+      "size": 68890
+    },
+    {
+      "name": "widgets/rasters-menu/dist/setting/setting",
+      "size": 1688
+    },
+    {
+      "name": "widgets/simple/dist/runtime/widget",
+      "size": 1465
+    },
+    {
+      "name": "widgets/menu-links/dist/runtime/widget",
+      "size": 55900
+    },
+    {
+      "name": "widgets/menu-links/dist/setting/setting",
+      "size": 1691
+    },
+    {
+      "name": "widgets/custom-header/dist/runtime/widget",
+      "size": 196448
+    },
+    {
+      "name": "widgets/custom-header/dist/setting/setting",
+      "size": 1691
+    }
+  ],
+  "links": [
+    {
+      "source": "widgets/about-us/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/about-us/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/about-us/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/about-us/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/about-us/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/cities-diagrams/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/cities-diagrams/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/cities-diagrams/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/cities-diagrams/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/cities-list/dist/runtime/widget",
+      "target": "esri/geometry/Point"
+    },
+    {
+      "source": "widgets/cities-list/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/cities-list/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/cities-list/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/cities-list/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/cities-list/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/cities-list/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/custom-legend/dist/runtime/widget",
+      "target": "esri/widgets/Legend"
+    },
+    {
+      "source": "widgets/custom-legend/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/custom-legend/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/custom-legend/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/custom-legend/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/custom-legend/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/custom-popup/dist/runtime/widget",
+      "target": "esri/geometry/Point"
+    },
+    {
+      "source": "widgets/custom-popup/dist/runtime/widget",
+      "target": "esri/geometry/SpatialReference"
+    },
+    {
+      "source": "widgets/custom-popup/dist/runtime/widget",
+      "target": "esri/geometry/projection"
+    },
+    {
+      "source": "widgets/custom-popup/dist/runtime/widget",
+      "target": "esri/layers/FeatureLayer"
+    },
+    {
+      "source": "widgets/custom-popup/dist/runtime/widget",
+      "target": "esri/rest/support/Query"
+    },
+    {
+      "source": "widgets/custom-popup/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/custom-popup/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/custom-popup/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/custom-popup/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/custom-popup/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/custom-popup/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/download-btn/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/download-btn/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/download-btn/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/download-btn/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/download-btn/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/footer/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/footer/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/footer/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/footer/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/footer/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/info-widget/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/info-widget/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/info-widget/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/info-widget/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/info-widget/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/language-switcher/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/language-switcher/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/language-switcher/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/language-switcher/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/opacity-slider/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/opacity-slider/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/opacity-slider/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/opacity-slider/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/opacity-slider/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/rasters-menu/dist/runtime/widget",
+      "target": "esri/layers/MapImageLayer"
+    },
+    {
+      "source": "widgets/rasters-menu/dist/runtime/widget",
+      "target": "jimu-arcgis/index"
+    },
+    {
+      "source": "widgets/rasters-menu/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/rasters-menu/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/rasters-menu/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/rasters-menu/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/rasters-menu/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/simple/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/menu-links/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/menu-links/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/menu-links/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/menu-links/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/menu-links/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    },
+    {
+      "source": "widgets/custom-header/dist/runtime/widget",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/custom-header/dist/runtime/widget",
+      "target": "jimu-core/react"
+    },
+    {
+      "source": "widgets/custom-header/dist/runtime/widget",
+      "target": "jimu-core/react-dom"
+    },
+    {
+      "source": "widgets/custom-header/dist/runtime/widget",
+      "target": "jimu-ui/index"
+    },
+    {
+      "source": "widgets/custom-header/dist/setting/setting",
+      "target": "jimu-core/index"
+    },
+    {
+      "source": "widgets/custom-header/dist/setting/setting",
+      "target": "jimu-ui/advanced/setting-components"
+    }
+  ]
+}

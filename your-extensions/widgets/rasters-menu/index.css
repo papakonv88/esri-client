@@ -1,0 +1,106 @@
+.dropdown-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 20px;
+    column-gap: 20px;
+}
+
+.titles-menu {
+    font-size: 1.2rem;
+}
+
+.description-wrapper {
+    background-color: #eee;
+    color: #2a2c2a;
+    font-weight: 600;
+    padding: 10px 40px;
+}
+
+.jimu-btn.jimu-dropdown-button {
+    background-color: transparent; /* Change background color */
+    color: white;
+    border: none !important;
+}
+
+[class$="-Dropdown-root"] {
+    display: inline-flex;
+    position: relative;
+    width: 25%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+[class$="-DropdownButton-content"] .jimu-icon {
+    margin-right: 8px;
+    margin-left: 16px;
+}
+
+.vertical-divider {
+    width: 2px;
+    height: auto;
+    background-color: white;
+    margin: 0 12px;
+}
+
+@media (max-width: 1080px) {
+    .dropdown-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px;
+        column-gap: 5px;
+    }
+
+    .vertical-divider {
+        width: 2px;
+        height: auto;
+        background-color: white;
+        margin: 0;
+    }
+
+    [class*="DropdownButton-content"] {
+        text-align: center;
+    }
+
+    [class*="-Dropdown-root"] {
+        display: inline-flex;
+        position: relative;
+        width: 20%;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .titles-menu {
+        font-size: 1rem;
+    }
+
+    .description-wrapper {
+        padding: 10px 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    [class*="DropdownButton-root"] {
+        padding: 8px;
+    }
+
+    [class$="-DropdownMenu-panel"] {
+        width: 100vw;
+    }
+
+    [class*="-Dropdown-root"] {
+        display: inline-flex;
+        position: relative;
+        width: 20%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .description-wrapper {
+        padding: 8px 8px;
+        overflow-y: scroll;
+        max-height: 60px;
+    }
+}

@@ -1,0 +1,23 @@
+.language-switchers {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.switcher {
+    padding: 0.5rem 0.8rem;
+    background: #EFE5DA;
+}
+
+.switcher-active {
+    background-color: #C2B19E;
+}
+
+#switcher-el {
+    border-radius: 10px 0px 0px 10px;
+}
+
+#switcher-en {
+    border-radius: 0px 10px 10px 0px;
+}

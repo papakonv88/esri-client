@@ -1,0 +1,55 @@
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.env
+.env.local
+.env.*.local
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# Build output
+dist/
+build/
+coverage/
+lib/
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+
+.npm
+
+.eslintcache
+
+.node_repl_history
+
+*.tsbuildinfo
+
+coverage/
+
+.next/
+.nuxt/
+out/
+
+# Misc
+*.tgz
+*.swp

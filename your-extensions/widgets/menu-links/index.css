@@ -1,0 +1,35 @@
+.wrapper-menu-links{}
+
+.menu-navigation {
+    display: flex;
+    column-gap: 10px;
+}
+
+/* Class for non-hover, non-active links */
+.custom-nav-link {
+    color: rgb(255, 255, 255) !important;  /* White color */
+    font-weight: bold !important;           /* Bold text */
+    text-decoration: none !important;       /* Remove underline */
+    font-style: normal !important;          /* Normal font style */
+    border-bottom: 2px solid rgba(0, 0, 0, 0) !important;  /* Transparent border */
+    font-size: 1rem;
+}
+
+/* Class for hover effect */
+.custom-nav-link:hover {
+    color: rgb(255, 255, 255) !important;  /* White color on hover */
+    border-bottom: 2px solid rgba(255, 255, 255, 1) !important; /* White underline */
+}
+
+/* Class for active link effect */
+.custom-nav-link.active {
+    font-weight: bold !important;          /* Bold when active */
+    color: rgb(255, 255, 255) !important;  /* White color when active */
+    border-bottom: 2px solid rgba(255, 255, 255, 1) !important; /* White underline when active */
+}
+
+/* Remove default blue color and underline */
+.custom-nav-link {
+    color: rgb(255, 255, 255) !important;  /* Force white color */
+    text-decoration: none !important;      /* No underline */
+}
