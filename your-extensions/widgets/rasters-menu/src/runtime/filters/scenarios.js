@@ -8,13 +8,13 @@ const scenarios = [
   {
     id: 2,
     label: "RCP 4.5 απόλυτες τιμές (ενδιάμεσο)",
-    labelEn: "RCP 2.6 absolute values (intermediate)",
+    labelEn: "RCP 4.5 absolute values (intermediate)",
     value: "45",
   },
   {
     id: 3,
     label: "RCP 8.5 απόλυτες τιμές (ακραίο)",
-    labelEn: "RCP 2.6 absolute values (extreme)",
+    labelEn: "RCP 8.5 absolute values (extreme)",
     value: "85",
   },
   {

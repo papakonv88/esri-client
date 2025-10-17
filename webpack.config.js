@@ -7,7 +7,6 @@ if (extensionsConfig.length === 0) {
   console.warn("You have to have at least one widget/theme.");
 }
 
-// Inject API_URL into all webpack configs
 extensionsConfig.forEach((cfg) => {
   cfg.plugins = cfg.plugins || [];
   cfg.plugins.push(

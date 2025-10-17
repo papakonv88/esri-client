@@ -6,7 +6,7 @@ const LanguageSwitcher = ({ locale, handleChangeLocale }) => {
   return (
     <div className="language-switchers">
       <div
-        className={`switcher ${locale !== "el" ? "switcher-active" : ""}`}
+        className={`switcher ${locale === "el" ? "switcher-active" : ""}`}
         id="switcher-el"
       >
         <a
@@ -26,7 +26,7 @@ const LanguageSwitcher = ({ locale, handleChangeLocale }) => {
         </a>
       </div>
       <div
-        className={`switcher ${locale === "el" ? "switcher-active" : ""}`}
+        className={`switcher ${locale !== "el" ? "switcher-active" : ""}`}
         id="switcher-en"
       >
         <a

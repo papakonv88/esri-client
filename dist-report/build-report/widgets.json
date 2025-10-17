@@ -612,6 +612,8 @@
             "./node_modules/use-sync-external-store/with-selector.js",
             "./your-extensions/shared/assets/adaptive-footer-logo.png",
             "./your-extensions/shared/assets/eu-life-logo.png",
+            "./your-extensions/shared/assets/fundedByLIFE-en.png",
+            "./your-extensions/shared/assets/logo-necca-en.png",
             "./your-extensions/shared/assets/ofypeka-logo-footer.png",
             "./your-extensions/shared/hooks/index.tsx",
             "./your-extensions/widgets/footer/index.css",

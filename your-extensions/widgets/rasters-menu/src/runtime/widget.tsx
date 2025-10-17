@@ -63,7 +63,14 @@ const Widget = (props: AllWidgetProps<any>) => {
   const dispatch = useDispatch();
 
   const selectedOptionsPath = useMemo(() => {
-    let selectedOptionsPath = Object.values(selectedLabels);
+    const { has_seasonal_data } = selectedIndex;
+    let selectedOptionsPath;
+    if (!has_seasonal_data) {
+      const { season, ...rest } = selectedLabels;
+      selectedOptionsPath = Object.values(rest);
+    } else {
+      selectedOptionsPath = Object.values(selectedLabels);
+    }
     const timelineLabel =
       locale === "el" ? timeline[0].label : timeline[0].labelEn;
     if (selectedLabels.timeline === timelineLabel) {
@@ -72,7 +79,7 @@ const Widget = (props: AllWidgetProps<any>) => {
       );
     }
     return selectedOptionsPath.join(" | ");
-  }, [JSON.stringify(selectedLabels)]);
+  }, [JSON.stringify(selectedLabels), JSON.stringify(selectedIndex)]);
 
   const layer = useMemo(() => {
     let layer;
@@ -215,7 +222,8 @@ const Widget = (props: AllWidgetProps<any>) => {
       });
 
       setSelectedLabels((prevLabels) => {
-        if (prevLabels.index.has_seasonal_data && !index?.has_seasonal_data) {
+        const { has_seasonal_data } = index;
+        if (!has_seasonal_data) {
           return {
             ...prevLabels,
             [type]: locale === "el" ? e.label : e.labelEn,

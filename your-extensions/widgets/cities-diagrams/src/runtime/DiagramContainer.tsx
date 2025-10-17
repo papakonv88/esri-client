@@ -107,15 +107,27 @@ const DiagramContainer = ({
           <h3>
             {diagramTitle} ({symbol})
           </h3>
-          <a
-            style={{ textDecoration: "none", color: "#FFFFFF" }}
-            href={`https://adaptivegreecehub.gr/download-content?timelines=${preFilenameToDownload}_${filenameToDownload}`}
-            className="diagram-download"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {locale === "el" ? "Λήψη δεδομένων" : "Download data"}
-          </a>
+          {locale === "el" ? (
+            <a
+              style={{ textDecoration: "none", color: "#FFFFFF" }}
+              href={`https://adaptivegreecehub.gr/download-content?timelines=${preFilenameToDownload}_${filenameToDownload}`}
+              className="diagram-download"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {"Λήψη δεδομένων"}
+            </a>
+          ) : (
+            <a
+              style={{ textDecoration: "none", color: "#FFFFFF" }}
+              href={`https://adaptivegreecehub.gr/en/download-gis-data/?timelines=${preFilenameToDownload}_${filenameToDownload}`}
+              className="diagram-download"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {"Download data"}
+            </a>
+          )}
         </div>
         <div className="diagram-wrapper">
           <div id={diagramID} style={{ width: "100%", height: "400px" }}></div>
