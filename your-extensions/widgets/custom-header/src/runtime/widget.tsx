@@ -7,15 +7,65 @@ import "./../../index.css";
 import MenuLinks from "./MenuLinks";
 import LanguageSwitcher from "./LanguageSwitcher";
 import BurgerMenu from "./BurgerMenu";
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect, useRef } from "react";
 import { links } from "./links.ts";
 
 const menuPortal = document.querySelector('[data-testid="pageRenderer"]');
+
+const MOBILE_BREAKPOINT = 576; // Match CSS breakpoint
 
 const Widget = () => {
   const { locale, setAppLocale } = useLocale();
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
   const isUp = useBreakpoint(1080);
+  const [isMobile, setIsMobile] = useState(false);
+  const scrollPositionRef = useRef<number>(0);
+
+  // Detect mobile mode
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= MOBILE_BREAKPOINT);
+    };
+
+    // Check on mount
+    checkMobile();
+
+    // Listen for resize events
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  // Lock body scroll when burger menu is open in mobile mode
+  useEffect(() => {
+    if (isBurgerOpen && isMobile) {
+      // Save current scroll position
+      scrollPositionRef.current = window.scrollY;
+      // Lock scroll
+      document.body.style.position = 'fixed';
+      document.body.style.top = `-${scrollPositionRef.current}px`;
+      document.body.style.width = '100%';
+      document.body.style.overflow = 'hidden';
+    } else if (!isBurgerOpen) {
+      // Restore scroll only when menu closes
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.width = '';
+      document.body.style.overflow = '';
+      // Restore scroll position
+      window.scrollTo(0, scrollPositionRef.current);
+    }
+
+    // Cleanup on unmount
+    return () => {
+      if (document.body.style.position === 'fixed') {
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.width = '';
+        document.body.style.overflow = '';
+        window.scrollTo(0, scrollPositionRef.current);
+      }
+    };
+  }, [isBurgerOpen, isMobile]);
 
   const getPageUrl = (link): string => {
     window.location.href =
