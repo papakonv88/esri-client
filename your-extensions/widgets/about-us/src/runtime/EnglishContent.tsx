@@ -175,6 +175,12 @@ export const EnglishContent = ({ children }) => (
       <li>
         Number of days per year with extreme forest fire risk (FWI &gt; 50)
       </li>
+        <li>
+            Maximum 24h precipitation (mm)
+        </li>
+        <li>
+            Maximum 48h precipitation (mm)
+        </li>
     </ol>
 
     <p>

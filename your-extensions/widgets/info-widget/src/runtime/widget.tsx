@@ -2,7 +2,7 @@ import {React, IMState, appActions} from 'jimu-core';
 import { useSelector } from 'react-redux'
 import CustomIconButton from './CustomIconButton';
 import CustomModal from './CustomModal';
-import abstracts from './abstracts.json'
+import abstracts from './abstracts-new.json'
 import {useMemo} from "react";
 import {getWidgetIdByLabel} from "../../../../shared/utils";
 import {useLocale} from "../../../../shared/hooks";
