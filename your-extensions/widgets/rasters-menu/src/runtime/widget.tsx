@@ -20,6 +20,7 @@ import { useLocale, useBreakpoint } from "../../../../shared/hooks";
 import FiltersDropdown from "./FiltersDropdown";
 import { useEffect, useMemo, useState } from "react";
 import UserMessages from "../../../../shared/components/UserMessages";
+import Point from "esri/geometry/Point";
 
 const BASE_LAYER_ID = "custom-bottom-layer";
 
@@ -158,6 +159,24 @@ const Widget = (props: AllWidgetProps<any>) => {
     jimuMapView.view.map.add(newLayer, 0);
   };
 
+    const zoomToLatLonMainMap = async (lat: number, lon: number) => {
+        const view = jimuMapView?.view;
+        if (!view) return;
+
+        await view.when();
+
+        const target = new Point({
+            latitude: lat,
+            longitude: lon,
+            spatialReference: { wkid: 4326 },
+        });
+
+        await view.goTo(
+            { target, zoom: 9 },
+            { animate: true, duration: 800 }
+        );
+    };
+
   const updateLayerDetails = () => {
     const details = indexes.find(
       (index) => index.value === selectedIndex.value,
@@ -253,9 +272,25 @@ const Widget = (props: AllWidgetProps<any>) => {
     }
   };
 
-  const activeViewChangeHandler = (jmv: JimuMapVie) => {
+  const activeViewChangeHandler = (jmv: JimuMapView) => {
     setJimuMapView(jmv);
   };
+
+    useEffect(() => {
+        if (!jimuMapView?.view) return;
+
+        const params = new URLSearchParams(window.location.search);
+        const mapParam = params.get("map");
+        if (!mapParam) return;
+
+        const [latStr, lonStr] = mapParam.split(",");
+        const lat = parseFloat(latStr);
+        const lon = parseFloat(lonStr);
+
+        if (Number.isNaN(lat) || Number.isNaN(lon)) return;
+
+        zoomToLatLonMainMap(lat, lon);
+    }, [jimuMapView]);
 
   useEffect(() => {
     updateLayerDetails();
