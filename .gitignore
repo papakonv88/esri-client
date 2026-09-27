@@ -22,9 +22,15 @@ jspm_packages/
 
 # Build output
 dist/
+dist-prod/
+dist-report/
+dist.broken.bak/
 build/
 coverage/
 lib/
+# Keep EXB runtime helper required by webpack widget entries
+!jimu-core/lib/
+!jimu-core/lib/set-public-path.ts
 tmp/
 temp/
 
