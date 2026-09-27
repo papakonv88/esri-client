@@ -2,7 +2,7 @@ import { React, AllWidgetProps, jsx, getAppStore } from "jimu-core";
 import { Loading } from "jimu-ui";
 import { JimuMapViewComponent, JimuMapView } from "jimu-arcgis";
 import { useState, useEffect, useRef } from "react";
-import { layersConfig } from "./layers";
+import { matchLayerConfig } from "./layers";
 import { getPixelValue, getFeatureValue, pointToGrGrid } from "./utils";
 import { greeceExtent } from "./greeceExtend";
 import CustomPopup from "./CustomPopup";
@@ -124,7 +124,7 @@ const Widget = (props: AllWidgetProps<any>) => {
         const relevantLayers = view.map.layers.filter(
           (mapLayer) =>
             isTargetLayer(mapLayer, activeLayerRef.current) ||
-            layersConfig.find((cfg) => cfg.url === mapLayer.url),
+            matchLayerConfig(mapLayer.url),
         );
 
         const allPromises = relevantLayers.map(async (mapLayer) => {
@@ -140,9 +140,7 @@ const Widget = (props: AllWidgetProps<any>) => {
             };
           }
 
-          const layerConfig = layersConfig.find(
-            (cfg) => cfg.url === mapLayer.url,
-          );
+          const layerConfig = matchLayerConfig(mapLayer.url);
 
           if (layerConfig) {
             const featureResult = await getFeatureValue(layerConfig, event);

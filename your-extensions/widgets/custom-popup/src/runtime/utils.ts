@@ -61,8 +61,9 @@ export const getPixelValue = async (view, mapPoint, layer) => {
 };
 
 export const getFeatureValue = async (layer, event) => {
-  const { url, alias, attribute } = layer;
-  const featureLayer = new FeatureLayer({ url });
+  const { url, attribute, isNatura } = layer;
+  const layerUrl = url.endsWith("/MapServer") ? `${url}/0` : url;
+  const featureLayer = new FeatureLayer({ url: layerUrl });
   const query = new Query();
   query.geometry = event.mapPoint;
   query.spatialRelationship = "intersects";
@@ -70,11 +71,9 @@ export const getFeatureValue = async (layer, event) => {
   query.returnGeometry = false;
 
   try {
-    let obj = { title: alias };
     const result = await featureLayer.queryFeatures(query);
-    if (alias === "Natura 2000" && result?.features.length > 1) {
-      const items = result?.features?.map((row) => row?.attributes[attribute]);
-      return items;
+    if (isNatura && result?.features.length > 1) {
+      return result?.features?.map((row) => row?.attributes[attribute]);
     } else {
       return result?.features[0]?.attributes?.[attribute]
         ? result?.features[0]?.attributes?.[attribute]

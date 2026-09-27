@@ -2,6 +2,16 @@ import { React, getAppStore, appActions } from "jimu-core";
 import { useEffect, useState, useRef } from "react";
 import { useDispatch } from "react-redux";
 
+if (typeof window !== "undefined" && !window.location.pathname.includes("/builder")) {
+  const params = new URLSearchParams(window.location.search);
+  if (!params.get("locale")) {
+    const url = new URL(window.location.href);
+    url.searchParams.set("page", "Αρχική");
+    url.searchParams.set("locale", "el");
+    window.location.replace(url.toString());
+  }
+}
+
 export const useActiveLayer = () => {
   const [activeLayer, setActiveLayer] = useState(null);
   const [layerDetails, setLayerDetails] = useState(null);
@@ -31,7 +41,7 @@ export const useActiveLayer = () => {
 
 export const useLocale = () => {
   const [locale, setLocale] = useState(
-    getAppStore().getState().appContext?.locale || "en-us",
+    getAppStore().getState().appContext?.locale || "el",
   );
 
   const dispatch = useDispatch();
@@ -48,7 +58,7 @@ export const useLocale = () => {
 
   const setAppLocale = (newLocale, baseUrl) => {
     const url = new URL(window.location.href);
-    const currentLocale = url.searchParams.get("locale") || "en-us";
+    const currentLocale = url.searchParams.get("locale") || "el";
 
     if (currentLocale === newLocale) {
       return;

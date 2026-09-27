@@ -68,7 +68,7 @@ const Widget = () => {
         };
     }, [isBurgerOpen, isMobile]);
 
-    const getPageUrl = (link): string => {
+    const getPageUrl = (link): void => {
         window.location.href =
             process.env.API_URL +
             `${link.prodTo}&locale=${locale === "el" ? "el" : "en-us"}`;

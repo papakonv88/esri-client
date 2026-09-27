@@ -144,6 +144,7 @@ const Widget = (props: AllWidgetProps<any>) => {
       url: layerUrl,
       opacity: 0.5,
       visible: true,
+      listMode: "hide",
     });
 
     const existingLayer = jimuMapView.view.map.findLayerById(BASE_LAYER_ID);

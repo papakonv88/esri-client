@@ -104,6 +104,9 @@ function getWidgetInfos(relativePath){
 }
 
 function visitSharedCodeFolder(folderPath, cb) {
+  if (!fs.existsSync(folderPath)) {
+    return;
+  }
   const files = fs.readdirSync(folderPath);
   files.forEach(fileName => {
     const filePath = path.normalize(folderPath + '/' + fileName);

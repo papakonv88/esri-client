@@ -60,7 +60,7 @@ const CustomPopup = ({
 
   const payloadValues = useMemo(() => {
     const allowedTypes = ["lat", "lon", "X", "Y"];
-    const naturaTypes = ["Natura 2000"];
+    const naturaTypes = ["Natura 2000", "Δίκτυο Natura 2000"];
     const payloadCoords = payload.results.filter((item) =>
       allowedTypes.includes(item.layer),
     );
