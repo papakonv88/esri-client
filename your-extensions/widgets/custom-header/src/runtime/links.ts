@@ -7,6 +7,11 @@ export const links = {
       prodTo: "?page=Χρονοσειρές",
     },
     {
+      name: "Οδηγίες Χρήσης",
+      to: "/page/Οδηγίες-Χρήσης",
+      prodTo: "?page=Οδηγίες-Χρήσης",
+    },
+    {
       name: "Συχνές Ερωτήσεις",
       to: "/page/Συχνές-Ερωτήσεις",
       prodTo: "?page=Συχνές-Ερωτήσεις",
@@ -23,6 +28,11 @@ export const links = {
       name: "Time Series",
       to: "/page/Time-Series",
       prodTo: "?page=Time-Series",
+    },
+    {
+      name: "User Guides",
+      to: "/page/User-Guides",
+      prodTo: "?page=User-Guides",
     },
     { name: "FAQs", to: "/page/FAQs", prodTo: "?page=FAQs" },
     {
