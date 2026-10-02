@@ -1,7 +1,7 @@
 import {React} from "jimu-core";
 import {Link, Image} from "jimu-ui";
 import ReactDOM from "react-dom";
-import {useBreakpoint, useLocale} from "../../../../shared/hooks";
+import {useBreakpoint, useLocale, goToAppPage} from "../../../../shared/hooks";
 import logo from "./../assets/adaptive-logo.png";
 import "./../../index.css";
 import MenuLinks from "./MenuLinks";
@@ -69,9 +69,7 @@ const Widget = () => {
     }, [isBurgerOpen, isMobile]);
 
     const getPageUrl = (link): void => {
-        window.location.href =
-            process.env.API_URL +
-            `${link.prodTo}&locale=${locale === "el" ? "el" : "en-us"}`;
+        goToAppPage(link, locale);
     };
 
     const currentLinks = useMemo(() => {
@@ -81,7 +79,7 @@ const Widget = () => {
     const handleIsBurgerOpen = () => setIsBurgerOpen((prev) => !prev);
 
     const handleChangeLocale = (newLocale: string) => {
-        setAppLocale(newLocale, process.env.API_URL);
+        setAppLocale(newLocale);
     };
 
     const logoHeight = useMemo(() => {
