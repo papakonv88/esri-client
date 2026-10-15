@@ -2,12 +2,56 @@ import { React, getAppStore, appActions } from "jimu-core";
 import { useEffect, useState, useRef } from "react";
 import { useDispatch } from "react-redux";
 
+const isDraftMode = () =>
+  typeof window !== "undefined" &&
+  new URLSearchParams(window.location.search).get("draft") === "true";
+
+const usesStructuralPageUrl = () => {
+  const jimuConfig = (window as any).jimuConfig;
+  return !jimuConfig || jimuConfig.useStructuralUrl !== false;
+};
+
+export const getAppPageHref = (link, locale) => {
+  const localeCode = locale === "el" ? "el" : "en-us";
+
+  if (isDraftMode()) {
+    const params = new URLSearchParams(window.location.search);
+    const base = window.location.pathname
+      .replace(/\/page\/.*$/, "")
+      .replace(/\/$/, "");
+    const pageSegment = String(link.to || "")
+      .replace(/^\/page\//, "")
+      .replace(/^\?page=/, "");
+
+    params.set("draft", "true");
+    params.set("locale", localeCode);
+
+    if (usesStructuralPageUrl()) {
+      params.delete("page");
+      return `${window.location.origin}${base}/page/${encodeURIComponent(pageSegment)}?${params.toString()}`;
+    }
+
+    params.set("page", pageSegment);
+    return `${window.location.origin}${base}?${params.toString()}`;
+  }
+
+  return `${process.env.API_URL}${link.prodTo}&locale=${localeCode}`;
+};
+
+export const goToAppPage = (link, locale) => {
+  window.location.href = getAppPageHref(link, locale);
+};
+
 if (typeof window !== "undefined" && !window.location.pathname.includes("/builder")) {
   const params = new URLSearchParams(window.location.search);
   if (!params.get("locale")) {
     const url = new URL(window.location.href);
-    url.searchParams.set("page", "Αρχική");
-    url.searchParams.set("locale", "el");
+    if (params.get("draft") === "true") {
+      url.searchParams.set("locale", "el");
+    } else {
+      url.searchParams.set("page", "Αρχική");
+      url.searchParams.set("locale", "el");
+    }
     window.location.replace(url.toString());
   }
 }
@@ -61,6 +105,12 @@ export const useLocale = () => {
     const currentLocale = url.searchParams.get("locale") || "el";
 
     if (currentLocale === newLocale) {
+      return;
+    }
+
+    if (url.searchParams.get("draft") === "true") {
+      const page = newLocale !== "el" ? "Home" : "Αρχική";
+      goToAppPage({ to: `/page/${page}`, prodTo: `?page=${page}` }, newLocale);
       return;
     }
 

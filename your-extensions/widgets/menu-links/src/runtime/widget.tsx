@@ -1,5 +1,5 @@
 import { React, getAppStore, appActions } from "jimu-core";
-import { useLocale } from "./../../../../shared/hooks";
+import { useLocale, goToAppPage } from "./../../../../shared/hooks";
 import { Link } from "jimu-ui";
 import "./../../index.css";
 import { links } from "./links";
@@ -7,10 +7,8 @@ import { links } from "./links";
 const Widget = () => {
   const { locale } = useLocale();
 
-  const getPageUrl = (link: any): string => {
-    window.location.href =
-      process.env.API_URL +
-      `${link.prodTo}&locale=${locale === "el" ? "el" : "en-us"}`;
+  const getPageUrl = (link: any): void => {
+    goToAppPage(link, locale);
   };
 
   const currentLinks = () => {

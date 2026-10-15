@@ -1,0 +1,17 @@
+{
+  "name": "user-guides",
+  "type": "widget",
+  "version": "1.17.0",
+  "exbVersion": "1.17.0",
+  "author": "Vasilis Papakonstantinou",
+  "description": "User guides page for the geospatial tool",
+  "copyright": "",
+  "license": "",
+  "properties": {},
+  "translatedLocales": ["en"],
+  "defaultSize": {
+    "width": 800,
+    "height": 800
+  },
+  "canAutoExpand": true
+}
